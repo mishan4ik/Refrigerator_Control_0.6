@@ -1,0 +1,165 @@
+.block_freezing_main{
+
+    display: flex;
+   justify-content: center;
+   margin-top: 100px;
+
+}
+
+.block_title_main{
+
+    display: flex;
+    border: 2px solid #000;
+    width: 400px;
+    align-items: center;
+
+}
+
+.icon_title img{
+
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+
+}
+
+.title_name h2{
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.title_doit h5{
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.block_timer_main{
+
+    border: 2px solid #000;
+    width: 400px;
+    text-align: center;
+
+}
+
+.time{
+
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px;
+
+}
+
+.info{
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px;
+
+}
+
+.block_set_time{
+
+    margin-top: 30px;
+
+}
+
+.inp_setTime{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 40px;
+    border: 2px solid #000;
+    font-size: 14px;
+
+}
+
+.block_btn_freezing{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.block_btn_defrost{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom:30px ;
+
+}
+
+.temperature_stable,.temperature_dynamic{
+
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: blue;
+
+
+}
+
+.temp_cooling,.temperature_cooling{
+
+    color: #d4971e;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.btn_freezing,.btn_defrost{
+
+    width: 70px;
+    height: 70px;
+    border-radius: 60px;
+    background-image: url(../img/freezing/play.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+
+.btn_freezing:hover,.btn_defrost:hover{
+
+    cursor: pointer;
+
+
+}
+
+.block_back{
+
+    border: 2px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.block_back img{
+
+    width: 40px;
+    height: 50px;
+
+}
+.btn_back:hover{
+
+    cursor: pointer;
+
+}

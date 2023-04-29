@@ -1,0 +1,77 @@
+.block_temperature_main{
+
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+
+}
+
+.block_title_main{
+
+    display: flex;
+    border: 2px solid #000;
+    width: 400px;
+    align-items: center;
+
+}
+.icon_title img{
+
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+
+}
+.title_name h2{
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.block_degree_change{
+
+    border: 2px solid #000;
+    width: 400px;
+    text-align: center;
+
+}
+
+.block_plus:hover,.block_minus:hover{
+
+    cursor: pointer;
+
+
+}
+
+.block_plus img,.block_minus img{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.block_back{
+
+    border: 2px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.block_back img{
+
+    width: 40px;
+    height: 50px;
+
+}
+.btn_back:hover{
+
+    cursor: pointer;
+
+}
+.degrees{
+
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+
+}

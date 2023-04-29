@@ -1,0 +1,61 @@
+
+.block_main{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.block_refrigerator{
+
+    min-width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+.block_left_side{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.block_temperature,.block_freezing,.block_cooling,.block_defrosting,.block_freshness,
+.block_electricity{
+
+    border: 2px solid black;
+    height: 70px;
+
+}
+
+.block_temperature img, .block_freezing img, .block_cooling img, .block_defrosting img,
+.block_freshness img, .block_electricity img{
+
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.block_temperature:hover,.block_freezing:hover,.block_cooling:hover,.block_defrosting:hover,
+.block_freshness:hover,.block_electricity:hover{
+
+    background-color: blue;
+
+}
+
+.block_title{
+
+    text-align: center;
+
+}
+.block_title h2{
+
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+}
